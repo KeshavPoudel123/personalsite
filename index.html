@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/mountain.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keshav Poudel | Mountains & Exploration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Welcome Modal -->
+    <div id="welcome-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Welcome to My Journey</h2>
+        <p>I'm Keshav Poudel, an adventurer and explorer with a passion for mountains, meditation, and visual storytelling.</p>
+        <p>This space is dedicated to sharing my experiences through trekking, travel, cinematography, and my love for space science and sports.</p>
+        
+        <div class="newsletter-signup">
+          <h3>Join My Newsletter</h3>
+          <p>Subscribe to receive updates on my latest adventures, treks, and cinematography projects.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Your Email Address" required>
+            <button class="btn newsletter-btn">Subscribe</button>
+          </div>
+        </div>
+        
+        <button class="btn modal-btn">Begin the Journey</button>
+      </div>
+    </div>
+    
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">Keshav Poudel</div>
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#passions">My Passions</a>
+            <a href="#adventures">Adventures</a>
+            <a href="#meditation">Meditation</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    
+    <section class="hero">
+      <div class="hero-slider">
+        <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80')"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80')"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1>Exploring Heights & Depths</h1>
+          <p>Journey through mountains, meditation, cinematography, and the wonders of space and sports.</p>
+          <a href="#passions" class="btn pulse-btn">Discover My World</a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text fade-in">
+            <h2>About Me</h2>
+            <p>I am Keshav Poudel, an adventurer and explorer with a deep passion for mountains, meditation, and visual storytelling. My journey began with a fascination for the Himalayan peaks and evolved into a lifelong exploration of nature, space science, and athletic pursuits.</p>
+            <p>Through my various adventures and mindfulness practices, I strive to capture the essence of our magnificent world. Whether I'm trekking through remote mountain trails, documenting landscapes through my camera lens, swimming across pristine lakes, or gazing at the stars, I seek to share the profound connection between human experience and the natural world.</p>
+            <div class="social-links about-social">
+              <a href="https://www.facebook.com/keshavpoudel.np" target="_blank" class="social-link">Facebook</a>
+              <a href="https://www.instagram.com/keshavpoudel__/" target="_blank" class="social-link">Instagram</a>
+              <a href="https://www.youtube.com/@exploringwithkeshav6348" target="_blank" class="social-link">YouTube</a>
+            </div>
+            <a href="#passions" class="btn">Discover My Passions</a>
+          </div>
+          <div class="about-image fade-in">
+            <img src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80" alt="Mountain trekking">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="passions" class="passions">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>My Passions & Interests</h2>
+          <p>Exploring the many dimensions of adventure and mindfulness</p>
+        </div>
+        
+        <div class="passions-container">
+          <div class="passion-item fade-in" data-passion="mountains">
+            <div class="passion-image">
+              <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Mountains">
+            </div>
+            <div class="passion-overlay">
+              <h3>Mountains & Trekking</h3>
+              <p>Exploring the majestic peaks and challenging trails</p>
+              <button class="btn passion-btn">Learn More</button>
+            </div>
+          </div>
+          
+          <div class="passion-item fade-in" data-passion="meditation">
+            <div class="passion-image">
+              <img src="https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80" alt="Meditation">
+            </div>
+            <div class="passion-overlay">
+              <h3>Meditation</h3>
+              <p>Finding inner peace and clarity through mindfulness</p>
+              <button class="btn passion-btn">Learn More</button>
+            </div>
+          </div>
+          
+          <div class="passion-item fade-in" data-passion="travel">
+            <div class="passion-image">
+              <img src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Traveling">
+            </div>
+            <div class="passion-overlay">
+              <h3>Traveling</h3>
+              <p>Discovering new cultures and breathtaking landscapes</p>
+              <button class="btn passion-btn">Learn More</button>
+            </div>
+          </div>
+          
+          <div class="passion-item fade-in" data-passion="cinematography">
+            <div class="passion-image">
+              <img src="https://images.unsplash.com/photo-1616469829581-73993eb86b02?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Cinematography">
+            </div>
+            <div class="passion-overlay">
+              <h3>Cinematography & Editing</h3>
+              <p>Capturing and crafting visual stories</p>
+              <button class="btn passion-btn">Learn More</button>
+            </div>
+          </div>
+          
+          <div class="passion-item fade-in" data-passion="space">
+            <div class="passion-image">
+              <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2022&q=80" alt="Space Science">
+            </div>
+            <div class="passion-overlay">
+              <h3>Space Science</h3>
+              <p>Exploring the cosmos and understanding our universe</p>
+              <button class="btn passion-btn">Learn More</button>
+            </div>
+          </div>
+          
+          <div class="passion-item fade-in" data-passion="sports">
+            <div class="passion-image">
+              <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80" alt="Sports">
+            </div>
+            <div class="passion-overlay">
+              <h3>Sports</h3>
+              <p>Cricket, football, swimming and athletic pursuits</p>
+              <button class="btn passion-btn">Learn More</button>
+            </div>
+          </div>
+          
+          <div class="passion-item fade-in" data-passion="reading">
+            <div class="passion-image">
+              <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1998&q=80" alt="Reading">
+            </div>
+            <div class="passion-overlay">
+              <h3>Reading</h3>
+              <p>Exploring lives and ideas through biographies and literature</p>
+              <button class="btn passion-btn">Learn More</button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Passion Modals -->
+        <div id="mountains-modal" class="passion-modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Mountains & Trekking</h2>
+            <div class="modal-grid">
+              <div class="modal-image">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Mountains">
+              </div>
+              <div class="modal-text">
+                <p>The mountains are my sanctuary and greatest teacher. Through trekking and wilderness exploration, I connect with the raw beauty and wisdom of nature, finding endless inspiration and a profound sense of perspective that grounds my entire life.</p>
+                <p>Each trail offers new vistas, challenges, and moments of awe that remind me of the delicate balance between effort and surrender—a principle that guides both my adventures and meditation practice. In the mountains, I practice a walking meditation that attunes me to the rhythms of the natural world and my own breath, creating a seamless connection between inner and outer landscapes.</p>
+                <p>Some of my favorite treks include:</p>
+                <ul>
+                  <li><strong>Annapurna Circuit</strong> - A classic Himalayan journey through diverse landscapes</li>
+                  <li><strong>Everest Base Camp</strong> - Walking in the shadow of the world's highest peak</li>
+                  <li><strong>Langtang Valley</strong> - A less-traveled but equally stunning Himalayan route</li>
+                  <li><strong>Manaslu Circuit</strong> - Remote trails with incredible cultural experiences</li>
+                </ul>
+                <p>The mountains have taught me patience, resilience, and humility—qualities that serve me equally well in all aspects of life. They remind me that transformation happens gradually, through consistent effort and a willingness to embrace both the summit views and the challenging climbs that lead to them.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="meditation-modal" class="passion-modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Vipassana Meditation</h2>
+            <div class="modal-grid">
+              <div class="modal-image">
+                <img src="https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80" alt="Meditation">
+              </div>
+              <div class="modal-text">
+                <p>My journey with Vipassana meditation began at Dharma Shringa, a serene meditation center nestled in the hills of Budanilkantha, Nepal. This transformative experience has become the cornerstone of my spiritual practice and has profoundly influenced how I perceive and interact with the world.</p>
+                <p>The 10-day silent retreat at Dharma Shringa was both the most challenging and rewarding experience of my life. Disconnected from the outside world—no phones, books, writing materials, or communication—I was left with only my mind to observe. The first days were difficult as my mind rebelled against the stillness, churning with thoughts, memories, and plans. But gradually, as I followed the technique of observing sensations throughout my body with equanimity, a remarkable clarity began to emerge.</p>
+                <p>Vipassana, which means "to see things as they really are," taught me to observe physical sensations without reacting with craving or aversion. This practice revealed how deeply our reactions to pleasant and unpleasant experiences create patterns of suffering. By maintaining equanimity toward all sensations—whether pleasant, unpleasant, or neutral—I began to break these patterns and experience a profound sense of peace.</p>
+                <p>The daily schedule was intense:</p>
+                <ul>
+                  <li><strong>4:00 AM</strong> - Morning wake-up bell</li>
+                  <li><strong>4:30-6:30 AM</strong> - Meditation in the hall or room</li>
+                  <li><strong>6:30-8:00 AM</strong> - Breakfast and rest</li>
+                  <li><strong>8:00-11:00 AM</strong> - Group meditation in the hall</li>
+                  <li><strong>11:00-1:00 PM</strong> - Lunch and rest</li>
+                  <li><strong>1:00-5:00 PM</strong> - Meditation in the hall or room</li>
+                  <li><strong>5:00-6:00 PM</strong> - Tea break</li>
+                  <li><strong>6:00-7:00 PM</strong> - Group meditation in the hall</li>
+                  <li><strong>7:00-8:15 PM</strong> - Teacher's discourse</li>
+                  <li><strong>8:15-9:00 PM</strong> - Final group meditation</li>
+                  <li><strong>9:30 PM</strong> - Lights out</li>
+                </ul>
+                <p>By the final days, I experienced moments of profound stillness where the boundaries between my body and the surrounding environment seemed to dissolve. The persistent chatter of my mind had quieted, revealing a spacious awareness that felt both ancient and intimately familiar.</p>
+                <p>Since that first retreat, I've returned to Dharma Shringa several times, each visit deepening my practice. Vipassana has become an essential tool that enhances every aspect of my life—from my mountain treks to my creative work, from my relationships to my understanding of myself. It has taught me that true freedom comes not from controlling external circumstances but from changing how I respond to them.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="travel-modal" class="passion-modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Traveling</h2>
+            <div class="modal-grid">
+              <div class="modal-image">
+                <img src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Traveling">
+              </div>
+              <div class="modal-text">
+                <p>Traveling is more than just visiting new places—it's about immersing myself in different cultures, perspectives, and landscapes. Each journey expands my understanding of the world and deepens my appreciation for the incredible diversity of human experience.</p>
+                <p>My travels have taken me across continents, from remote mountain villages to bustling urban centers. I'm particularly drawn to destinations that offer a blend of natural beauty, cultural richness, and opportunities for adventure. Whether I'm backpacking through Southeast Asia, exploring European cities, or discovering hidden gems in my own country, I approach each journey with curiosity and openness.</p>
+                <p>Some of my most memorable travel experiences include:</p>
+                <ul>
+                  <li><strong>Living with local families in remote Himalayan villages</strong></li>
+                  <li><strong>Documenting traditional festivals and ceremonies</strong></li>
+                  <li><strong>Exploring ancient temples and historical sites</strong></li>
+                  <li><strong>Participating in cultural exchanges and volunteer projects</strong></li>
+                </ul>
+                <p>Through travel, I've learned that despite our apparent differences, people everywhere share fundamental desires for connection, meaning, and happiness. These insights continually inform my worldview and enrich my storytelling through cinematography.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="cinematography-modal" class="passion-modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Cinematography & Editing</h2>
+            <div class="modal-grid">
+              <div class="modal-image">
+                <img src="https://images.unsplash.com/photo-1616469829581-73993eb86b02?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Cinematography">
+              </div>
+              <div class="modal-text">
+                <p>Through the lens of my camera, I capture the stories that words alone cannot tell. Cinematography allows me to document my adventures, preserve fleeting moments, and share the beauty of our world with others.</p>
+                <p>My approach to filmmaking is deeply influenced by my meditation practice—I strive to bring the same quality of presence and attention to my visual storytelling. Whether I'm filming the majesty of mountain landscapes, the intimate moments of cultural ceremonies, or the dynamic action of sporting events, I seek to convey not just what I see, but how it feels to be there.</p>
+                <p>The editing process is where the magic truly happens. Through careful selection, pacing, and sound design, I craft narratives that transport viewers and evoke emotional responses. I'm particularly interested in the intersection of natural beauty and human experience—how landscapes shape cultures and how people interact with their environments.</p>
+                <p>Some of my cinematography projects include:</p>
+                <ul>
+                  <li><strong>Documentary series on traditional Himalayan cultures</strong></li>
+                  <li><strong>Short films about environmental conservation efforts</strong></li>
+                  <li><strong>Adventure sports documentaries</strong></li>
+                  <li><strong>Time-lapse sequences of astronomical events</strong></li>
+                </ul>
+                <p>Through my films, I hope to inspire others to explore, protect, and appreciate the extraordinary world we inhabit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="space-modal" class="passion-modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Space Science</h2>
+            <div class="modal-grid">
+              <div class="modal-image">
+                <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2022&q=80" alt="Space Science">
+              </div>
+              <div class="modal-text">
+                <p>My fascination with space began as a child, gazing at the stars from mountain viewpoints with unobstructed night skies. This early wonder has evolved into a passionate interest in astronomy and space science that complements my love for terrestrial exploration.</p>
+                <p>I'm particularly interested in the intersection of astronomy and photography, using specialized equipment to capture celestial events and night sky phenomena. From meteor showers to eclipses, from planetary conjunctions to the Milky Way, I document the cosmic dance that unfolds above us every night.</p>
+                <p>My interest in space science extends beyond observation to understanding the fundamental principles that govern our universe. I follow developments in astrophysics, planetary science, and space exploration with keen interest, and often incorporate these themes into my cinematography work.</p>
+                <p>Some of my space-related activities include:</p>
+                <ul>
+                  <li><strong>Astrophotography expeditions to dark sky locations</strong></li>
+                  <li><strong>Time-lapse documentation of celestial events</strong></li>
+                  <li><strong>Educational outreach about astronomy and space science</strong></li>
+                  <li><strong>Participation in citizen science projects related to astronomy</strong></li>
+                </ul>
+                <p>The cosmic perspective gained through studying space science provides a profound context for all my earthly adventures, reminding me of both our insignificance in the universal scale and the extraordinary privilege of experiencing consciousness in this vast cosmos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="sports-modal" class="passion-modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Sports</h2>
+            <div class="modal-grid">
+              <div class="modal-image">
+                <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80" alt="Sports">
+              </div>
+              <div class="modal-text">
+                <p>Physical activity has always been an essential part of my life, complementing my mental and spiritual practices. Through various sports, I've learned valuable lessons about discipline, teamwork, perseverance, and the joy of pushing personal limits.</p>
+                <p>Cricket holds a special place in my heart. The strategic complexity, the blend of individual skill and team coordination, and the rich traditions of the game continue to fascinate me. Whether playing in local matches or following international tournaments, cricket connects me to a global community of enthusiasts.</p>
+                <p>Football (soccer) offers a different kind of excitement—the fluid movement, the constant adaptation, and the beautiful simplicity of the game make it both a joy to play and to watch. The universal language of football transcends cultural barriers, creating instant connections wherever I travel.</p>
+                <p>Swimming provides a meditative counterpoint to these team sports. In the water, I find a unique combination of physical challenge and mental calm. The rhythmic nature of swimming, the sensation of weightlessness, and the focus on breath control create an experience that parallels meditation in many ways.</p>
+                <p>Through these diverse sporting activities, I maintain physical fitness for my mountain adventures while also enjoying the social connections, competitive spirit, and pure joy of movement that sports provide.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="reading-modal" class="passion-modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Reading</h2>
+            <div class="modal-grid">
+              <div class="modal-image">
+                <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1998&q=80" alt="Reading">
+              </div>
+              <div class="modal-text">
+                <p>Books have been my constant companions throughout life's journey, offering wisdom, inspiration, and perspective that continually shape my understanding of the world. While I enjoy various genres, biographies hold a special place in my reading life.</p>
+                <p>There's something profoundly moving about immersing myself in the life stories of remarkable individuals who have shaped our world. Through biographies, I've walked alongside mountaineers conquering impossible peaks, scientists revolutionizing our understanding of the universe, artists transforming their visions into reality, and leaders navigating complex social and political landscapes.</p>
+                <p>Some of my favorite biographies include:</p>
+                <ul>
+                  <li><strong>"Into Thin Air" by Jon Krakauer</strong> - A gripping account of the 1996 Mount Everest disaster that offers profound insights into human decision-making under extreme conditions</li>
+                  <li><strong>"A Beautiful Mind" by Sylvia Nasar</strong> - The fascinating life story of mathematician John Nash and his struggle with schizophrenia</li>
+                  <li><strong>"Steve Jobs" by Walter Isaacson</strong> - An illuminating portrait of the complex genius behind Apple</li>
+                  <li><strong>"Long Walk to Freedom" by Nelson Mandela</strong> - The inspiring autobiography of South Africa's revolutionary leader</li>
+                  <li><strong>"Becoming" by Michelle Obama</strong> - A thoughtful reflection on identity, purpose, and public service</li>
+                  <li><strong>"Elon Musk" by Ashlee Vance</strong> - The remarkable journey of a visionary entrepreneur reshaping multiple industries</li>
+                </ul>
+                <p>Beyond biographies, I'm drawn to books on philosophy, science, and adventure narratives. Authors like Yuval Noah Harari, Carl Sagan, and Rebecca Solnit have profoundly influenced my thinking about human history, our place in the cosmos, and our relationship with the natural world.</p>
+                <p>Reading is not just a pastime but a practice—a way of expanding my horizons, challenging my assumptions, and developing empathy by experiencing life through others' perspectives. Whether I'm reading in a quiet corner at home, during breaks on a mountain trek, or listening to audiobooks while traveling, books remain essential companions on my journey of exploration and growth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="adventures" class="art-gallery">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>My Adventures</h2>
+          <p>A visual journey through mountains, travels, and explorations</p>
+        </div>
+        
+        <div class="gallery-grid">
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Mountain Peak">
+            <div class="gallery-overlay">
+              <h3>Annapurna Sunrise</h3>
+              <p>Himalayan Trek</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1494783367193-149034c05e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Mountain Lake">
+            <div class="gallery-overlay">
+              <h3>Rara Lake</h3>
+              <p>Western Nepal</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80" alt="Meditation Spot">
+            <div class="gallery-overlay">
+              <h3>Mountain Meditation</h3>
+              <p>Langtang Valley</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1520962880247-cfaf541c8724?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2032&q=80" alt="Cricket Match">
+            <div class="gallery-overlay">
+              <h3>Village Cricket</h3>
+              <p>Local Tournament</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80" alt="Night Sky">
+            <div class="gallery-overlay">
+              <h3>Milky Way</h3>
+              <p>Astrophotography</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Trekking">
+            <div class="gallery-overlay">
+              <h3>Mountain Trail</h3>
+              <p>Everest Region</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Football Match">
+            <div class="gallery-overlay">
+              <h3>Sunset Football</h3>
+              <p>Weekend Match</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Filming">
+            <div class="gallery-overlay">
+              <h3>Behind the Lens</h3>
+              <p>Documentary Filming</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1445217143695-467124038776?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" alt="Swimming">
+            <div class="gallery-overlay">
+              <h3>Mountain Lake Swim</h3>
+              <p>Summer Adventure</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1504233529578-6d46baba6d34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" alt="Space Observation">
+            <div class="gallery-overlay">
+              <h3>Stargazing</h3>
+              <p>Telescope Night</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Travel">
+            <div class="gallery-overlay">
+              <h3>Cultural Immersion</h3>
+              <p>Village Stay</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item fade-in">
+            <img src="https://images.unsplash.com/photo-1507120410856-1f35574c3b45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1970&q=80" alt="Mountain Meditation">
+            <div class="gallery-overlay">
+              <h3>Summit Meditation</h3>
+              <p>Himalayan Peak</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="meditation" class="meditation">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Vipassana Meditation</h2>
+          <p>Discovering inner peace at Dharma Shringa, Budanilkantha</p>
+        </div>
+        
+        <div class="meditation-content">
+          <div class="meditation-text fade-in">
+            <p>My journey with Vipassana meditation began at Dharma Shringa, a serene meditation center nestled in the hills of Budanilkantha, Nepal. This transformative experience has become the cornerstone of my spiritual practice and has profoundly influenced how I perceive and interact with the world.</p>
+            <p>The 10-day silent retreat was both the most challenging and rewarding experience of my life. Disconnected from the outside world—no phones, books, writing materials, or communication—I was left with only my mind to observe. Through the ancient technique of observing bodily sensations with equanimity, I discovered a profound stillness that continues to guide me through life's adventures.</p>
+            <p>Vipassana has taught me that true freedom comes not from controlling external circumstances but from changing how I respond to them. This wisdom enhances every aspect of my life—from mountain treks to creative work, from relationships to self-understanding. The practice continues to reveal that the path to peace lies not in escaping life's challenges but in facing them with awareness and equanimity.</p>
+          </div>
+          
+          <div class="meditation-gallery fade-in">
+            <div class="meditation-gallery-item">
+              <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80" alt="Meditation in nature">
+            </div>
+            <div class="meditation-gallery-item">
+              <img src="https://images.unsplash.com/photo-1470137237906-d8a4f71e1966?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Meditation by the lake">
+            </div>
+            <div class="meditation-gallery-item">
+              <img src="https://images.unsplash.com/photo-1604881991720-f91add269bed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Meditation with incense">
+            </div>
+            <div class="meditation-gallery-item">
+              <img src="https://images.unsplash.com/photo-1507120410856-1f35574c3b45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1970&q=80" alt="Meditation in mountains">
+            </div>
+          </div>
+          
+          <div class="meditation-practices fade-in">
+            <h3>The Vipassana Experience</h3>
+            <div class="practices-grid">
+              <div class="practice-item">
+                <h4>Noble Silence</h4>
+                <p>Maintaining complete silence for 10 days, allowing deep introspection and heightened awareness of sensations.</p>
+              </div>
+              <div class="practice-item">
+                <h4>Anapana Meditation</h4>
+                <p>Focusing on natural breath to develop concentration before learning the Vipassana technique.</p>
+              </div>
+              <div class="practice-item">
+                <h4>Body Scanning</h4>
+                <p>Systematically observing sensations throughout the body with equanimity, without generating craving or aversion.</p>
+              </div>
+              <div class="practice-item">
+                <h4>Metta Bhavana</h4>
+                <p>Cultivating loving-kindness and sharing the merits of practice with all beings on the final day of the retreat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h2>Get In Touch</h2>
+          <p>Connect with me about adventures, cinematography, or collaboration opportunities</p>
+        </div>
+        
+        <div class="contact-content">
+          <div class="contact-info fade-in">
+            <h3>Let's Connect</h3>
+            <p>I'm always open to discussing adventure opportunities, meditation practices, or potential collaborations. Whether you're interested in joining a trek, learning about cinematography, or simply sharing your own journey, I'd love to hear from you.</p>
+            <p>Based in the beautiful mountains of Nepal, I'm available for expeditions, film projects, and speaking engagements about my adventures and experiences.</p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/keshavpoudel.np" target="_blank">Facebook</a>
+              <a href="https://www.instagram.com/keshavpoudel__/" target="_blank">Instagram</a>
+              <a href="https://www.youtube.com/@exploringwithkeshav6348" target="_blank">YouTube</a>
+              <a href="https://twitter.com/KESHAVP48409172" target="_blank">Twitter</a>
+              <a href="mailto:contact.keshavpoudel@gmail.com" target="_blank">Email</a>
+            </div>
+          </div>
+          
+          <div class="contact-form fade-in">
+            <form>
+              <input type="text" placeholder="Your Name" required>
+              <input type="email" placeholder="Your Email" required>
+              <input type="text" placeholder="Subject">
+              <textarea placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Keshav Poudel</h3>
+            <p>Exploring the intersection of mountains, meditation, and visual storytelling through trekking, travel, cinematography, and a passion for space and sports.</p>
+            <div class="social-links footer-social">
+              <a href="https://www.facebook.com/keshavpoudel.np" target="_blank">Facebook</a>
+              <a href="https://www.instagram.com/keshavpoudel__/" target="_blank">Instagram</a>
+              <a href="https://www.youtube.com/@exploringwithkeshav6348" target="_blank">YouTube</a>
+              <a href="https://twitter.com/KESHAVP48409172" target="_blank">Twitter</a>
+              <a href="mailto:contact.keshavpoudel@gmail.com" target="_blank">Email</a>
+            </div>
+          </div>
+          
+          <div class="footer-column quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#passions">My Passions</a></li>
+              <li><a href="#adventures">Adventures</a></li>
+              <li><a href="#meditation">Meditation</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="copyright">
+          <p>&copy; 2025 Keshav Poudel. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
